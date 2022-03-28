@@ -1,0 +1,369 @@
+/* COLOR PALLETTE 
+
+    color: #212529; NEAR BLACK
+    color: #778899; LIGHT GRAY
+    color: #ffdcdce6; ROSE/PINK
+    color: aquamarine; 
+    color: rgb(102, 18, 102); LIGHT PURP
+    color: rgb(75, 13, 75); DARK PURP
+
+
+*/
+
+
+.body_container{
+    background-color: #778899;
+    font-family: 'Bad Script', cursive;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: lightslategray;
+    margin-bottom: 200px;
+}
+
+
+/* TOP FADE IN */
+
+.img_logo_container{
+    animation:fadeIn 4s;
+   
+
+}
+@keyframes fadeIn{from{opacity: 0}to{opacity: 1}}
+
+
+
+.scones_imgs{
+    width: 60% !important;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+
+/*  */
+
+h1{
+    color: aquamarine;
+}
+
+p{
+    color: #661266;
+}
+
+.kimba_pic{
+    width: 15%;
+    margin-top: 10px;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.img_logo_container{
+    background-color: lightslategrey;
+}
+
+
+/* NAVBAR TOP */
+
+.contact_btn{
+
+    color: white;
+    text-decoration: none;
+}
+.contact_btn:hover{
+    color: aquamarine;
+}
+
+
+.contact_btn:not(.collapsed) {
+    outline: none !important;
+  }
+  .contact_btn:focus {
+    box-shadow: none;
+    border-color: none;
+}
+
+.navbar{
+
+    background-color: rgba(255, 220, 220, 0.902);
+
+}
+
+.navbar-toggler-icon{
+    border-color: aquamarine !important;
+    background-color: #778899;
+}
+
+.kk_logo_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+
+.menu_button{
+    color: white !important;
+    
+
+}
+
+.menu_button:hover{
+    color: aquamarine !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:hover{
+    color: rgb(75, 13, 75);
+    
+}
+
+.navbar-toggler span{
+    text-decoration: none;
+    text-decoration-color: rgb(75, 13, 75);
+}
+
+.navbar-toggler span:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(102, 18, 102);
+}
+
+
+button:hover, button:focus {
+    outline: none !important;
+  }
+
+a{
+    color: white !important;
+}
+a:hover{
+color: aquamarine !important;
+border-bottom:1px solid rgb(75, 13, 75) !important;
+}
+
+.to_top_link:hover{
+    border: none !important;
+}
+
+
+li{
+    color: rgb(102, 18, 102);
+}
+
+.insta_logo{
+    width: 20px;
+    /* float: right; */
+}
+
+
+/* SPACING BETWEEN DIVS SECTIONS */
+
+
+.main_cont_container{
+    padding-bottom: 50px;
+}
+
+.jumbotron{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.my_story_container{
+    margin-top: 275px;
+    margin-bottom: 150px;
+}
+
+.my_story_div{
+    margin-top: 50px;
+}
+
+.in_the_oven_container{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.food_pics_container{
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
+.pricing_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.order_items_container{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.orders_container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.orders_h1_div{
+    padding-top: 25px;
+}
+
+.form_container{
+    padding-bottom: 50px;
+}
+
+.p_lead{
+    padding-top: 10px;
+}
+
+
+
+/* SCONES LIST EDITS */
+.scones_list_item{
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+
+
+
+.gf_span{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.gf_option_mark{
+    color: rgb(102, 18, 102);
+    font-style: italic;
+}
+
+.big_asterisk{
+    font-size: 1.5rem;
+}
+
+
+/* PRICING LIST */
+
+.price_list{
+    list-style-type:circle;
+    color: aquamarine;
+}
+
+.price_list h4{
+    color: rgb(102, 18, 102);
+}
+
+.price_list h4 .scone_span{
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+
+.my_story_p{
+    color: #ffdcdce6;
+}
+
+.p_lead{
+    color: aquamarine;
+}
+
+.gf_pricing{
+    font-style: italic;
+    font-size: small;
+}
+
+.pricing_list{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.carousel-control-prev:hover{
+    border: none;
+}
+.carousel-control-prev{
+    border: none !important;
+}
+
+
+.carousel-control-next:hover{
+    border: none;
+}
+.carousel-control-next{
+    border: none !important;
+}
+
+
+
+/* ACCORDION STYLING */
+
+
+.accordion-item{
+    background-color: #778899;
+}
+
+.accordion-button{
+    background-color: #778899;
+    text-decoration: underline;
+    text-decoration-color:aquamarine;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+}
+
+.accordion-header button{
+    color: rgba(255, 220, 220, 0.902) !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #778899!important;
+    outline: none !important;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.affiliate_btn:not(.collapsed){
+    box-shadow: none;
+    outline: none !important;
+}
+.affiliate_btn{
+    outline: none;
+    text-decoration: none !important;
+}
+
+.affiliate_p{
+    color: rgb(102, 18, 102)
+}
+
+.contact_btn_div{
+    margin-bottom: 25px;
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 220, 220, 0.902);
+}
+.dropdown-item{
+    color: #778899 !important;
+}
+
+
+
+
+/* ECWID CHANGES */
+
+
+.ecwid div, .ecwid span, .ecwid a, .ecwid p {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.ecwid div, .ecwid p {
+    color: #ffdcdce6 !important;
+}
+
+.ecwid a, .ecwid button, .ecwid .grid-product__title-inner{
+    color: aquamarine !important;
+}
+
